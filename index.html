@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>zadanie domowe</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="panel">
+        <div class="header">
+            <p class="eyebrow">wybieranie poziomu</p>
+            <h1>Choose your level</h1>
+        </div>
+
+        <div class="selector-grid">
+            <div class="field">
+                <label for="a">First level</label>
+                <select name="level" id="a" aria-label="Level A">
+                    <option value="1">Level 1</option>
+                    <option value="2">Level 2</option>
+                    <option value="3">Level 3</option>
+                    <option value="4">Level 4</option>
+                    <option value="5">Level 5</option>
+                    <option value="6">Level 6</option>
+                    <option value="7">Level 7</option>
+                    <option value="8">Level 8</option>
+                    <option value="9">Level 9</option>
+                </select>
+            </div>
+
+            <div class="field">
+                <label for="b">Second level</label>
+                <select name="level" id="b" aria-label="Level B">
+                    <option value="1">Level 1</option>
+                    <option value="2">Level 2</option>
+                    <option value="3">Level 3</option>
+                    <option value="4">Level 4</option>
+                    <option value="5">Level 5</option>
+                    <option value="6">Level 6</option>
+                    <option value="7">Level 7</option>
+                    <option value="8">Level 8</option>
+                    <option value="9">Level 9</option>
+                </select>
+            </div>
+        </div>
+
+
+
+        <img id="toggleImage" src="img/img1.png" alt="Toggle image" />
+
+        <img id="hoverImage" src="img/img3.png" alt="Hover image" />
+
+        <div class="letter-box">
+            <label for="wordInput">Type a word</label>
+            <input id="wordInput" type="text" placeholder="Type here...">
+            <div class="letter-result">
+                <span>Letter count:</span>
+                <strong id="letterCount">0</strong>
+            </div>
+        </div>
+
+        <div class="counter-box">
+            <button id="minusBtn" type="button">-</button>
+            <strong id="numberCount">0</strong>
+            <button id="plusBtn" type="button">+</button>
+        </div>
+
+        <p id="colorText" class="color-text">text</p>
+    </div>
+</body>
+</html>
